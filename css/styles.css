@@ -24,8 +24,6 @@ font-family: "Raleway", sans-serif;
 .nav-studio {
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.002em;
-color: #2e2f42;
 }
 
 .nav-link {
@@ -63,6 +61,7 @@ color: #404bbf;
     color: #404bbf;
 }
 
+/* sectione 1 */
 .one {
     background: #2E2F42;
 }
@@ -75,16 +74,24 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
+        line-height: 1.07;
 }
 
 .one-batton {
-width: Hug (169px)px;
-    height: Hug (56px)px;
-    top: 428px;
-    left: 636px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    background-color: #4D5AE5;
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.one-batton :hover {
+    background-color: #404BBF;
+}
+
+.one-batton :focus {
+    background-color: #404BBF;
 }
