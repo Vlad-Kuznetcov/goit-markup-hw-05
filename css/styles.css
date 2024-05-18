@@ -63,7 +63,7 @@ color: #404bbf;
 
 /* sectione 1 */
 .one {
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .effective {
@@ -98,6 +98,10 @@ font-family: "Roboto", sans-serif;
 
 /* section second */
 
+.second-title {
+    color: #2e2f42;
+}
+
 .goals-names {
     font-weight: 500;
     font-size: 20px;
@@ -116,7 +120,7 @@ font-family: "Roboto", sans-serif;
 }
 
 .team-title {
-    font-size: 36pxf;
+    font-size: 36pxp;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
