@@ -6,7 +6,10 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,33 +20,37 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <ul>
-          <li class="nav-studio">
-            <a class="nav-link" href="./index.html">Studio</a>
-          </li>
-          <li class="nav-studio"><a class="nav-link" href="">Portfolio</a></li>
-          <li class="nav-studio"><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="main-address">
-        <ul>
-          <li class="address-info">
-            <a class="address-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="address-info">
-            <a class="address-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header-page">
+      <div class="contaiter">
+        <nav class="menu-nav">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="container-nav-links">
+            <li class="nav-studio">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-studio">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-studio"><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="main-address">
+          <ul class="container-address-links">
+            <li class="address-info">
+              <a class="address-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-info">
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="one">
@@ -52,67 +59,67 @@
       </section>
       <!-- goals / section 2 -->
       <section class="second">
-        <h2 class="second-title">Goals</h2>
-        <ul>
-          <li>
-            <h3 class="goals-names">Strategy</h3>
-            <p class="goals-info">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="goals-names">Punctuality</h3>
-            <p class="goals-info">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="goals-names">Diligence</h3>
-            <p class="goals-info">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-
-          <li>
-            <h3 class="goals-names">Technologies</h3>
-            <p class="goals-info">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Our Team / section 3 -->
-      <section class="our-team">
-        <h2 class="team-title">Our Team</h2>
-        <ul>
-          <li class="team-img">
-            <img src="./images/d.jpg" width="264" alt="Mark Guerrero" />
-            <h3 class="team-person">Mark Guerrero</h3>
-            <p class="team-person-info">Product Designer</p>
-          </li>
-          <li class="team-img">
-            <img src="./images/a.jpg" width="264" alt="Tom Ford" />
-            <h3 class="team-person">Tom Ford</h3>
-            <p class="team-person-info">Frontend Developer</p>
-          </li>
-          <li class="team-img">
-            <img src="./images/b.jpg" width="264" alt="Camila Garcia" />
-            <h3 class="team-person">Camila Garcia</h3>
-            <p class="team-person-info">Marketing</p>
-          </li>
-          <li class="team-img">
-            <img src="./images/c.jpg" width="264" alt="Daniel Wilson" />
-            <h3 class="team-person">Daniel Wilson</h3>
-            <p class="team-person-info">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="second-title">Goals</h2>
+          <ul>
+            <li>
+              <h3 class="goals-names">Strategy</h3>
+              <p class="goals-info">
+                Our goal is to identify the business problem to walk away with the
+                perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="goals-names">Punctuality</h3>
+              <p class="goals-info">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="goals-names">Diligence</h3>
+              <p class="goals-info">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="goals-names">Technologies</h3>
+              <p class="goals-info">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+          </div>
+                </section>
+          
+                <!-- Our Team / section 3 -->
+                <section class="our-team">
+          <h2 class="team-title">Our Team</h2>
+          <ul>
+            <li class="team-img">
+              <img src="./images/d.jpg" width="264" alt="Mark Guerrero" />
+              <h3 class="team-person">Mark Guerrero</h3>
+              <p class="team-person-info">Product Designer</p>
+            </li>
+            <li class="team-img">
+              <img src="./images/a.jpg" width="264" alt="Tom Ford" />
+              <h3 class="team-person">Tom Ford</h3>
+              <p class="team-person-info">Frontend Developer</p>
+            </li>
+            <li class="team-img">
+              <img src="./images/b.jpg" width="264" alt="Camila Garcia" />
+              <h3 class="team-person">Camila Garcia</h3>
+              <p class="team-person-info">Marketing</p>
+            </li>
+            <li class="team-img">
+              <img src="./images/c.jpg" width="264" alt="Daniel Wilson" />
+              <h3 class="team-person">Daniel Wilson</h3>
+              <p class="team-person-info">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- section 4 -->
       <section class="our-portfolio">
