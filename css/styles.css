@@ -15,7 +15,6 @@ body {
 .header-page {
     border-bottom: 1px solid #e7e9fc;
     margin: 0;
-    display: flex;
 }
 
 .container {
@@ -121,6 +120,7 @@ a:hover {
 .main-address {
     font-style: normal;
     margin-left: auto;
+
 }
 
 .address-info {
