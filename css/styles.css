@@ -240,6 +240,7 @@ position: absolute;
 }
 
 /* section 3 */
+
 .our-team {
     background-color: #F4F4FD;
         padding-top: 120px;
@@ -272,7 +273,8 @@ background-color: #FFFFFF;
 }
 
 .container-workes {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-person {
@@ -290,7 +292,12 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 0;
+}
+
+.our-container {
     text-align: center;
+    padding: 0;
 }
 
 /* section three все шо и с прошлого блокаaaa*/
@@ -318,10 +325,11 @@ font-size: 16px;
     width: calc((100% - 48px) / 3);
 }
 
-.our-container {
-    padding: 32px 16px;
+.our-port-container {
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .our-title {
