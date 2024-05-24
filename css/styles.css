@@ -24,7 +24,9 @@ body {
      padding-right: 15px;
 }
 
-.header-page .contaiter {
+
+
+.header-page .container {
     display: flex;
     align-items: center;
     
@@ -291,7 +293,7 @@ font-size: 16px;
     text-align: center;
 }
 
-/* section three все шо и с прошлого блока */
+/* section three все шо и с прошлого блокаaaa*/
 
 .our-portfolio {
     padding-top: 120px;
@@ -312,7 +314,7 @@ font-size: 16px;
     margin-bottom: 0;
 }
 
-.our-list {
+.our-item {
     width: calc((100% - 48px) / 3);
 }
 
