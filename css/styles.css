@@ -18,7 +18,6 @@ body {
 }
 
 .container {
-    display: flex;
     max-width: 1158px;
      margin: 0 auto;
      padding-left: 15px;
@@ -28,11 +27,12 @@ body {
 .header-page .contaiter {
     display: flex;
     align-items: center;
+    
 }
 
 .menu-nav {
     display: flex;
-        align-items: center;
+    align-items: center;
 
 }
 
