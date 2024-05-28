@@ -15,6 +15,9 @@ body {
 .header-page {
     border-bottom: 1px solid #e7e9fc;
     margin: 0;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -91,7 +94,9 @@ a {
 .nav-studio {
 font-weight: 500;
 line-height: 1.5;
+position: relative;
 }
+
 
 .nav-link {
     font-weight: 500;
@@ -102,6 +107,24 @@ line-height: 1.5;
         padding-top: 24px;
         padding-bottom: 24px;
         display: block;
+        position: relative;
+
+
+}
+.current {
+  color: #404BBF;
+}
+
+.current::after {
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: #404BBF;
+        border-radius: 2px;
+        display: block;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
 }
 
 .nav-link:last-child {
@@ -267,6 +290,7 @@ position: absolute;
     background-color: #F4F4FD;
         padding-top: 120px;
         padding-bottom: 120px;
+        
 }
 
 .team-title {
@@ -314,7 +338,7 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 0;
+    margin: 12px;
 }
 
 .our-container {
@@ -323,10 +347,29 @@ font-size: 16px;
 }
 
 .social-icons-list {
-display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
+
+.social-link {
+border: 1px solid #4D5AE5;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+background-color: #4D5AE5;
+display: flex;
+align-content: space-around;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+}
+
+.social-icons {
+        fill: #f4f4fd;
+    justify-content: center;
+        text-align: center;
 }
 
 /* section three все шо и с прошлого блокаaaa*/
@@ -354,11 +397,17 @@ display: flex;
     width: calc((100% - 48px) / 3);
 }
 
+.our-item:hover {
+    background-color: #FFF;
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
 .our-port-container {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding-top: 32px;
     padding-bottom: 32px;
+        padding-left: 16px;
 }
 
 .our-title {
@@ -392,4 +441,42 @@ display: flex;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.social-icons-list-footer {
+}
+
+.social-icons-list-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-info {
+    width: 264px;
+}
+
+
+.social-link-footer {
+    border: 1px solid #4D5AE5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+footer-box {
+    display:flex;
+}
+
+.social-icons {
+    fill: #f4f4fd;
+    justify-content: center;
+    text-align: center;
 }
