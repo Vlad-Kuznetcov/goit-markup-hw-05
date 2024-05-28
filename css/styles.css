@@ -154,7 +154,13 @@ a:hover {
 .one {
     padding-top: 188px;
         padding-bottom: 188px;
+        max-width: 1440px;
+        margin: 0 auto;
         background-color: #2e2f42;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)), url(../images/bgoffice.jpg);
+
 }
 
 .effective {
@@ -215,13 +221,29 @@ position: absolute;
     overflow: hidden;
 }
 
+.list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.icon-folder-advangages {
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.icon-advantages {
+    margin-top: 24px;
+        margin-bottom: 24px;
+}
+
 .container-ul {
     display: flex;
         gap: 24px;
-}
-
-.list-item {
-    width: calc((100% - 72px) / 4);
 }
 
 .goals-names {
@@ -298,6 +320,13 @@ font-size: 16px;
 .our-container {
     text-align: center;
     padding: 0;
+}
+
+.social-icons-list {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 /* section three все шо и с прошлого блокаaaa*/
