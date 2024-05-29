@@ -542,8 +542,10 @@ transform: translateY(0%);
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-footer:hover, .social-link-footer:focus {
+.social-link-footer:hover, 
+.social-link-footer:focus {
 background-color: #31d0aa;
+border: 1px solid #31d0aa;
 }
 
 .social-icons {
