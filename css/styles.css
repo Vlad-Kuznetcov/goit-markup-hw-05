@@ -552,6 +552,10 @@ border: 1px solid #31d0aa;
     text-align: center;
 }
 
+.footer-title {
+    margin-bottom: 16px;
+}
+
 /* modal */
 
 .backdrop {
@@ -562,6 +566,12 @@ border: 1px solid #31d0aa;
     left: 0;
     width: 100%;
     height: 100%;
+    opacity: 0;
+}
+
+.backdrop.is-open {
+opacity: 1;
+pointer-events: auto;
 }
 
 .modal {
