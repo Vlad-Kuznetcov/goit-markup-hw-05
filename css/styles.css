@@ -671,6 +671,7 @@ pointer-events: auto;
 .modal-close-btn:focus {
 background-color: #404bbf;
 fill: #ffffff;
+border: none;
 }
 
 .modal-title {
@@ -717,7 +718,7 @@ font-family: Roboto;
     font-family: Roboto;
     font-size: 12px;
     outline: transparent;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-filed-icon {
@@ -726,16 +727,16 @@ font-family: Roboto;
     left: 16px;
     transform: translateY(-50%);
     /* fill: #2E2F42 */
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-filed-input:focus,
-.modal-filed-icon:focus {
+.modal-filed-input:focus {
     border-color: #4D5AE5;
-    fill: #4D5AE5;
 }
 
-
+.modal-filed-input:focus + svg {
+fill: #4D5AE5;
+}
 
 .modal-textarea {
     margin-bottom: 16px;
